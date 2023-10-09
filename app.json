@@ -9,41 +9,41 @@
         "python",
         "ultroid"
     ],
-    "repository": "https://github.com/TeamUltroid/Ultroid",
+    "repository": "https://github.com/Burstsam/Ultroid",
     "website": "https://ultroid.tech",
     "success_url": "https://t.me/TeamUltroid",
     "stack": "container",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": "", 
+            "value": "17400896", 
             "required": false
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "",
+            "value": "7fbff5757c27df2afb556a00ddf4196a",
             "required": false
         },
         "SESSION": {
             "description": "Session String (telethon or pyrogram) for your telegram user account. The userbot will NOT work without a session string!!",
-            "value": ""
+            "value": "1BVtsOI8Bu4KhTo0NvXfMS4F6opQ5Dl_LSxJ6R-nJa5Ez_XzZi9Vd4vAcTG7pwaRLp98RJO9KWdytVTimHWsdJv2Th3MfgsMJqq4LJxdGIBFsBWox-Ad6XrxjF-TxoVlWr6mPMYmZk0ARCPVjU7ZOAVWH1Sv90b7s2SSilrdmWboMNe0gKPstIK_4dfacjWIw7_NIM9axjyRBiQVtD7A27Gia8OECV9gdsxefqzH5XxsKMJuCFdJivnaitxXZBJng24BrShXTbyw6pnbwf9DgqML8UkxcmMXskBgTPtnFgTDIarYBPTplPzG1FiOh-RB1ZblfJENvVcp7tEsIVJ3qfT2zI4KD4qM="
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": ""
+            "value": "redis-17752.c275.us-east-1-4.ec2.cloud.redislabs.com:17752"
         },
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
-            "value": ""
+            "value": "4Gpkw2oi3Aya0ZrkL8CTTuPtjefHHmEW"
         },
         "HEROKU_API": {
             "description": "Heroku API token. Mandatory for Heroku Deploy...",
-            "value": "",
+            "value": "0cf83042-344f-45cc-a9b5-6745caaf3605",
             "required": false
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your Heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
-            "value": "",
+            "value": "gbhi",
             "required": false
         }
     },
